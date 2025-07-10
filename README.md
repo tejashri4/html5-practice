@@ -19,3 +19,13 @@ A personal portfolio with:
 
 🔗 Open `portfolio.html` to view my mini portfolio site.
 
+
+## ✅ Task 4: Contact Form
+
+An interactive contact form using HTML5 with:
+- Input fields: name, email, phone, message
+- Validations using `required`, `pattern`, `maxlength`
+- CSS styled for a neat form layout
+
+🔗 Open `contact-form.html` to test the form!
+
