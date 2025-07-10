@@ -8,3 +8,14 @@ A personal resume webpage built using:
 - Clean and professional CSS layout
 
 🔗 Open `Resume-Web-Page.html` to view the online resume.
+
+## ✅ Task 3: Portfolio Website
+
+A personal portfolio with:
+- About Me
+- Projects section with links
+- Contact section
+- HTML5 + CSS grid layout
+
+🔗 Open `portfolio.html` to view my mini portfolio site.
+
