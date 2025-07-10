@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contact Me - Teju</title>
+        <style>
+            body{
+                background-color:#e8f5e9;
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                padding:30px;
+
+            }
+
+            .form-container{
+                max-width:600px;
+                margin:auto;
+                background:white;
+                padding:30px;
+                border-radius:15px;
+                box-shadow:0 4px 15px rgba(0,0,0,0.1);
+            }
+
+            h2{
+                text-align:center;
+                color:#4CAF50;
+            }
+
+            label{
+                display:block;
+                margin-top:15px;
+                margin-bottom:5px;
+                font-weight:bold;
+            }
+
+            input,textarea{
+                width:100%;
+                padding:10px;
+                border:1px solid #ccc;
+                border-radius:8px;
+                font-size:14px;
+
+            }
+
+            input:focus,textarea:focus{
+                border-color:#4CAF50;
+            }
+
+            button{
+                margin-top:20px;
+                background:#4CAF50;
+                color:white;
+                padding:10px 20px;
+                border:none;
+                border-radius:10px;
+                cursor:pointer;
+                font-size:16px;
+            }
+
+            button:hover{
+                background:#45a049;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="form-container">
+            <h2>Contact Teju</h2>
+            <from action="#" method="post">
+                <label for="name">Full Name *</label>
+                <input type="text" id="email" name="name" required maxlength="50" placeholder="Enter your full name">
+
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" required placeholder="example@email.com">
+
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="10-digit number">
+
+                <label for="message">Your Message *</label>
+                <textarea id="message" name="message" rows="5" required maxlength="500" placeholder="Write your message..."></textarea>
+
+                <button type="submit">Send Message</button>
+            </from>
+        </div>
+    </body>
+</html>
