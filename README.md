@@ -29,3 +29,14 @@ An interactive contact form using HTML5 with:
 
 🔗 Open `contact-form.html` to test the form!
 
+
+## ✅ Task 5: Responsive Navigation Bar
+
+A sticky header navbar with scroll-to-section links using:
+- Flexbox layout
+- Semantic section tags
+- Responsive design using media queries
+
+🔗 Open `navbar.html` to explore!
+
+
